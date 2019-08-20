@@ -1,0 +1,65 @@
+*{
+	/* Se inicializan los valores por defecto que asigna el navegador */
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header{
+	position: relative; 	/* se aplica para cajas principales*/
+	margin: 10px auto;		/* "auto" utiliza para centrar la caja */
+	
+	width:800px;
+	height:50px;
+	background: green;
+	
+}
+
+
+
+#menuhorizontal {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+#menuhorizontal a {
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  color:#ff0000;
+  background-color:#f7f8e8;
+  padding:3px 5px;
+  border-right:1px solid blue;
+  display:block;
+}
+
+#menuhorizontal li {
+  float:left;
+}
+
+#menuhorizontal a:hover {
+  background-color:#336699;
+}
+
+#container{
+	background-color: blue;
+	margin: 20px;
+	width: 400px;
+	height: 400px;
+	
+}
+
+#menu{
+	align-content: center;
+	margin-left: 20px;
+	margin-top: 20px;
+	background-color:white;
+	width: 400px;
+	height: 100px;
+}
+
+#demo{
+	
+	margin-left: 20px;
+	margin-right: 550px;
+}
